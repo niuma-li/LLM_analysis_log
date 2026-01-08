@@ -1,0 +1,119 @@
+EventId,EventTemplate,SemanticClass,EventCategory
+E1,*** info [mice.c(<*>)]:,"Hardware & Device Drivers",Other
+E2,<*> HIGHMEM available.,"Memory Management",Other
+E3,<*> LOWMEM available.,"Memory Management",Other
+E4,ACPI disabled because your bios is from <*> and too old,"Power Management","Hardware & Kernel Config Errors"
+E5,ACPI: ACPI tables contain no PCI IRQ routing entries,"Power Management","Hardware & Kernel Config Errors"
+E6,ACPI: Interpreter disabled.,"Power Management",Other
+E7,ACPI: Subsystem revision <*>,"Power Management",Other
+E8,ALERT exited abnormally with [1],"Authentication & Security","Authentication & Security Failures"
+E9,"ANONYMOUS FTP LOGIN FROM <*>, (anonymous)","Authentication & Security",Other
+E10,apm: BIOS version <*>.<*> Flags <*>,"Power Management",Other
+E11,audit(<*>.<*>:<*>): initialized,"Authentication & Security",Other
+E12,audit: initializing netlink socket (disabled),"Network & Connectivity",Other
+E13,Authentication failed from <*> (<*>): Permission denied in replay cache code,"Authentication & Security","Authentication & Security Failures"
+E14,Authentication failed from <*> (<*>): Software caused connection abort,"Authentication & Security","Authentication & Security Failures"
+E15,authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost=,"Authentication & Security","Authentication & Security Failures"
+E16,authentication failure; logname= uid=0 euid=0 tty= ruser= rhost=<*>,"Authentication & Security","Authentication & Security Failures"
+E17,authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=<*>,"Authentication & Security","Authentication & Security Failures"
+E18,authentication failure; logname=uid=0 euid=0 tty= ruser= rhost=<*> user=root,"Authentication & Security","Authentication & Security Failures"
+E19,authentication failure; logname=uid=0 euid=0 tty= ruser= rhost=<*> user=guest,"Authentication & Security","Authentication & Security Failures"
+E20,BIOS-e820: <*> - <*> (reserved),"Hardware & Device Drivers",Other
+E21,BIOS-e820: <*> - <*> (usable),"Hardware & Device Drivers",Other
+E22,BIOS-provided physical RAM map:,"Hardware & Device Drivers",Other
+E23,Bringing up loopback interface: succeeded,"Network & Connectivity",Other
+E24,Built <*> zonelists,"Memory Management",Other
+E25,Calibrating delay loop... <*>.<*> BogoMIPS,"Kernel Boot & General System",Other
+E26,Capability LSM initialized,"Authentication & Security",Other
+E27,check pass; user unknown,"Authentication & Security","Authentication & Security Failures"
+E28,Checking 'hlt' instruction... OK.,"Kernel Boot & General System",Other
+E29,connection from <*> (<*>) at <*>:<*>:<*>,"Network & Connectivity",Other
+E30,Console: colour VGA+ <*>,"Hardware & Device Drivers",Other
+E31,Couldn't authenticate user,"Authentication & Security","Authentication & Security Failures"
+E32,CPU: <*>,"Hardware & Device Drivers",Other
+E33,"CPU: After generic identify, caps: <*>","Hardware & Device Drivers",Other
+E34,CPU: L1 I cache: <*>,"Hardware & Device Drivers",Other
+E35,CPU0: Intel(R) Xeon(TM) CPU <*>.<*>GHz stepping <*>,"Hardware & Device Drivers",Other
+E36,crond startup succeeded,"System Services & Daemons",Other
+E37,cupsd shutdown succeeded,"System Services & Daemons",Other
+E38,cupsd startup succeeded,"System Services & Daemons",Other
+E39,Dentry cache hash table entries: <*>,"Memory Management",Other
+E40,Detected <*>.<*> MHz processor.,"Hardware & Device Drivers",Other
+E41,"DMA zone: <*> pages, LIFO batch:<*>","Memory Management",Other
+E42,DMI <*>.<*> present.,"Hardware & Device Drivers",Other
+E43,Dquot-cache hash table entries: <*>,"Kernel Boot & General System",Other
+E44,Enabling fast FPU save and restore... done.,"Hardware & Device Drivers",Other
+E45,Enabling unmasked SIMD FPU exception support... done.,"Hardware & Device Drivers",Other
+E46,Freeing initrd memory: <*> freed,"Memory Management",Other
+E47,getpeername (ftpd): Transport endpoint is not connected,"Network & Connectivity","Hardware & Kernel Config Errors"
+E48,HCI daemon ver <*>.<*> started,"System Services & Daemons",Other
+E49,hcid startup succeeded,"System Services & Daemons",Other
+E50,"HighMem zone: <*> pages, LIFO batch:<*>","Memory Management",Other
+E51,imps2: Auto-detected intellimouse PS/<*>,"Hardware & Device Drivers",Other
+E52,Initializing CPU#<*>,"Hardware & Device Drivers",Other
+E53,Initializing Cryptographic API,"Kernel Boot & General System",Other
+E54,Initializing random number generator: succeeded,"Kernel Boot & General System",Other
+E55,Inode-cache hash table entries: <*>,"Memory Management",Other
+E56,Intel machine check architecture supported.,"Hardware & Device Drivers",Other
+E57,Intel machine check reporting enabled on CPU#<*>.,"Hardware & Device Drivers",Other
+E58,irqbalance startup succeeded,"System Services & Daemons",Other
+E59,isapnp: No Plug & Play device found,"Hardware & Device Drivers",Other
+E60,isapnp: Scanning for PnP cards...,"Hardware & Device Drivers",Other
+E61,Kerberos authentication failed,"Authentication & Security","Authentication & Security Failures"
+E62,Kernel command line: ro root=LABEL=/ rhgb quiet,"Kernel Boot & General System",Other
+E63,kernel.core_uses_pid = <*>,"Kernel Boot & General System",Other
+E64,klogd startup succeeded,"System Services & Daemons",Other
+E65,klogd: -<*> (Use '-') to terminate.,"System Services & Daemons",Other
+E66,Linux agpgart interface v<*>.<*> (c) Jeff Hartmann,"Hardware & Device Drivers",Other
+E67,Linux Plug and Play Support v<*>.<*> (c) Adam Belay,"Hardware & Device Drivers",Other
+E68,Linux version <*>.<*>.<*> (<*>) (gcc version <*>.<*>.<*> <*>) #<*> <*> <*> <*> <*> <*>,"Kernel Boot & General System",Other
+E69,mapped 4G/4G trampoline to <*>. ,"Memory Management",Other
+E70,"Memory: <*> available (<*> kernel code, <*> reserved, <*> data, <*> init, <*> highmem)","Memory Management",Other
+E71,Mount-cache hash table entries: <*>,"Memory Management",Other
+E72,mtrr: v<*>.<*> (<*>)","Memory Management",Other
+E73,NET: Registered protocol family <*>,"Network & Connectivity",Other
+E74,"Normal zone: <*> pages, LIFO batch:<*>","Memory Management",Other
+E75,output: callbacks suppressed,"Kernel Boot & General System",Other
+E76,PCI: <*> <*>: <*>,"Hardware & Device Drivers",Other
+E77,PCI: Invalid ACPI-PCI IRQ routing table,"Power Management","Hardware & Kernel Config Errors"
+E78,PCI: Probing PCI hardware,"Hardware & Device Drivers",Other
+E79,PCI: Probing PCI hardware (bus <*>)","Hardware & Device Drivers",Other
+E80,PCI: Using ACPI for IRQ routing,"Hardware & Device Drivers",Other
+E81,PCI: Using IRQ router <*> [<*>\\/<*>] at <*>:<*>.<*>","Hardware & Device Drivers",Other
+E82,PCI: viaroot: BIOS revision <*>","Hardware & Device Drivers",Other
+E83,pci_hotplug: PCI Hot Plug PCI Core version: <*>.<*>","Hardware & Device Drivers",Other
+E84,"PID hash table entries: 512 (order: 9, 16384 bytes)","Kernel Boot & General System",Other
+E85,portmap startup succeeded,"System Services & Daemons",Other
+E86,POSIX conformance testing by UNIFIX,"Kernel Boot & General System",Other
+E87,Real Time Clock Driver v<*>.<*>","Hardware & Device Drivers",Other
+E88,Received SNMP packet(s) from <*>,"Network & Connectivity",Other
+E89,removing device node '/udev/<*>',"Hardware & Device Drivers",Other
+E90,restart.,"Kernel Boot & General System",Other
+E91,ROOT LOGIN ON tty2,"Authentication & Security",Other
+E92,rpc.idmapd startup succeeded,"System Services & Daemons",Other
+E93,rpc.statd startup succeeded,"System Services & Daemons",Other
+E94,sdpd startup succeeded,"System Services & Daemons",Other
+E95,sdpd v<*>.<*> started,"System Services & Daemons",Other
+E96,Security Scaffold v<*>.<*>.<*> initialized,"Authentication & Security",Other
+E97,SELinux: Initializing.,"Authentication & Security",Other
+E98,SELinux: Registering netfilter hooks,"Authentication & Security",Other
+E99,SELinux: starting up,"Authentication & Security",Other
+E100,SELinux: Unregistering netfilter hooks,"Authentication & Security",Other
+E101,session closed for user <*>,"Authentication & Security",Other
+E102,session opened for user <*> by (uid=<*>)","Authentication & Security",Other
+E103,session opened for user <*> by (uid=0)","Authentication & Security",Other
+E104,Setting network parameters: succeeded,"Network & Connectivity",Other
+E105,Starting pcmcia: succeeded,"Hardware & Device Drivers",Other
+E106,syslogd startup succeeded,"System Services & Daemons",Other
+E107,"There is already a security framework initialized, register_security failed.","Authentication & Security","Hardware & Kernel Config Errors"
+E108,"Total HugeTLB memory allocated, <*>","Memory Management",Other
+E109,Transparent bridge - <*>,"Hardware & Device Drivers",Other
+E110,usbcore: registered new driver hub,"Hardware & Device Drivers",Other
+E111,usbcore: registered new driver usbfs,"Hardware & Device Drivers",Other
+E112,User unknown timed out after <*> seconds at <*>,"Authentication & Security","Service Communication & Timeout Exceptions"
+E113,Using tsc for high-res timesource,"Hardware & Device Drivers",Other
+E114,Version <*>.<*>.<*> Starting,"Kernel Boot & General System",Other
+E115,VFS: Disk quotas dquot_<*>.<*>.<*>,"Kernel Boot & General System",Other
+E116,warning: can't get client address: Connection reset by peer,"Network & Connectivity","Service Communication & Timeout Exceptions"
+E117,You can enable it with acpi=force,"Power Management",Other
+E118,zapping low mappings.,"Memory Management",Other
