@@ -1,0 +1,16 @@
+│
+├── dataset/                    # [输入] 原始 CSV
+│   ├── Linux_2k.log            
+|   ├── Linux_2k.log_struct.csv
+|   ├── Linux_2k.log_template.csv
+|   ├── Linux_answer2.csv
+│   └── 
+│
+├── src/
+│   ├── analysis.py             # 日志分析(语义类别和异常识别)
+│   ├── evaluate.py             # 结果评估
+│   ├── llm_service.py          # LLM模块
+│   ├── preprocess.py           # 数据预处理
+│   └── rca.py                  # 根因分析
+│
+└── main.py                     # 程序入口
