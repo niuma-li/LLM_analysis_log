@@ -5,15 +5,15 @@ import random  # 引入随机库
 # 确保能找到 src 模块
 sys.path.append(os.path.dirname(os.path.abspath(__file__)))
 
-from src.preprocess import LogPreprocessor
+from src.preprocess_v2 import LogPreprocessor
 from src.analysis import LogAnalyzer
 from src.rca import RootCauseAnalyzer
 from src.evaluate import Evaluator
 # ================= 配置区 =================
 # 是否开启随机采样？
-ENABLE_SAMPLING = True
+ENABLE_SAMPLING = False
 # 采样数量 (n)
-SAMPLE_N = 1000
+SAMPLE_N = 50
 
 def main():
     print("==========================================")
@@ -24,8 +24,14 @@ def main():
     print("\n[Step 1] 数据预处理...")
     preprocessor = LogPreprocessor(dataset_dir="dataset")
     # 假设你的日志文件名叫 Linux_2k.log
-    logs = preprocessor.load_logs(filename="Linux_2k.log")
+    # sysType = "Linux"
+    # logs = preprocessor.load_logs(filename="Linux_2k.log")
     # logs = preprocessor.load_logs(filename="Linux_2k.log_structured.csv")  # 结构化日志
+
+    # 假设你的日志文件名叫 Android_2k.log
+    sysType = "Android"
+    # logs = preprocessor.load_logs(filename="Android_2k.log")
+    logs = preprocessor.load_logs(filename="Android_2k.log_structured.csv")  # 结构化日志
     total_logs = len(logs)
     print(f"原始日志总数: {total_logs}")
     # for log in logs[:5]:
@@ -58,7 +64,7 @@ def main():
     # 为了测试快速运行，可以只取前 20 条进行测试
     # logs = logs[:20] 
     analyzer = LogAnalyzer(output_dir="outputs")
-    analyzer.analyze(logs)
+    analyzer.analyze(logs,sysType)
     
     # 3. 根因分析
     print("\n[Step 3] 执行异常根因分析 (RCA)...")
@@ -67,7 +73,8 @@ def main():
 
     # 4. 评估打分
     print("\n[Step 4] 评估结果 (对比标准答案)...")
-    evaluator = Evaluator(dataset_dir="dataset", output_dir="outputs",answer_file="Linux_answer2.csv")
+    # evaluator = Evaluator(dataset_dir="dataset", output_dir="outputs",answer_file="Linux_answer2.csv")
+    evaluator = Evaluator(dataset_dir="dataset", output_dir="outputs",sysType = sysType)
     # evaluator.evaluate()
     evaluator.evaluate(target_line_ids=target_line_ids)
 
