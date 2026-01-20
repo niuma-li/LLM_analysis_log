@@ -1,0 +1,167 @@
+EventId,EventTemplate,SemanticClass,EventCategory
+E1,*** register callback for <*>@<*>,System Services & Daemons,Other
+E2,*** unregister callback for <*>@<*>,System Services & Daemons,Other
+E3,*** unregister callback for null,System Services & Daemons,Other
+E4,"[HSM] stayAwake false uid: <*>, pid: <*> ",Power Management,Other
+E5,[PhoneIntfMgr] getDataEnabled: subId=<*> phoneId=<*>,Network & Connectivity,Other
+E6,[PhoneIntfMgr] getDataEnabled: subId=<*> retVal=true,Network & Connectivity,Other
+E7,<*>: <*> cannot be cast to <*>$Token,System Services & Daemons,Other
+E8,<*>: Must execute in UI,System Services & Daemons,Other
+E9,abandonAudioFocus,System Services & Daemons,Other
+E10,"acquire lock=<*>, flags=<*>, tag=""<*>"", name=<*>, ws=<*>, uid=<*>, pid=<*>",Power Management,Other
+E11,"Acquiring suspend blocker ""PowerManagerService.WakeLocks"".",Power Management,Other
+E12,ACTION_BATTERY_CHANGED AMP: <*>; Volt: <*>,Power Management,Other
+E13,ACTION_BATTERY_CHANGED pluggedType: <*>,Power Management,Other
+E14,"ACTIVITY check resid: <*>, size=<*>",System Services & Daemons,Other
+E15,"ActivityManagerService,attachApplication,callingPid = <*>",System Services & Daemons,Other
+E16,"ActivityRecord info: ActivityInfo{<*> <*>}, euid: <*>",System Services & Daemons,Other
+E17,addNotification key=<*>|<*>|<*>|null|<*>,System Services & Daemons,Other
+E18,"animateCollapsePanels:flags=<*>, force=false, delayed=false, mExpandedVisible=false",System Services & Daemons,Other
+E19,"animateCollapsePanels:flags=<*>, force=false, delayed=false, mExpandedVisible=true",System Services & Daemons,Other
+E20,"animateCollapsePanels:flags=<*>, force=true, delayed=true, mExpandedVisible=true",System Services & Daemons,Other
+E21,"Animating brightness: target=<*>, rate=<*>",Power Management,Other
+E22,"Application requested orientation <*>, got rotation <*> which has compatible metrics",System Services & Daemons,Other
+E23,applyOptionsLocked: Unknown animationType=<*>,System Services & Daemons,Other
+E24,ApStaDisabledState what=<*>,Network & Connectivity,Other
+E25,Bad activity token: <*>@<*>,System Services & Daemons,Other
+E26,battery changed pluggedType: <*>,Power Management,Other
+E27,cancelAutohide,System Services & Daemons,Other
+E28,"cancelNotification,cancelNotificationLocked,callingUid = <*>,callingPid = <*>",System Services & Daemons,Other
+E29,"cancelNotification,index:<*>",System Services & Daemons,Other
+E30,"cancelNotificationLocked called,tell the app,reason = <*>",System Services & Daemons,Other
+E31,"cancelNotificationLocked,remove =<*>",System Services & Daemons,Other
+E32,cancelNotificationLocked:<*>|<*>|<*>|null|<*>,System Services & Daemons,Other
+E33,"cancelNotificationWithTag pid <*>,uid = <*>,tag = null,pkg =<*>,id =<*>",System Services & Daemons,Other
+E34,cancelPeek: false,System Services & Daemons,Other
+E35,ChargingSpeed  Wattage: <*> ST: <*> --> <*>,Power Management,Other
+E36,cleanUpApplicationRecord -- <*>,System Services & Daemons,Other
+E37,"cleanUpApplicationRecordLocked, pid: <*>, restart: false",System Services & Daemons,Other
+E38,"cleanUpApplicationRecordLocked, reset pid: <*>, euid: <*>",System Services & Daemons,Other
+E39,closeQs,System Services & Daemons,Other
+E40,DefaultState what=<*>,System Services & Daemons,Other
+E41,Destroying surface Surface(name=<*>) called by <*>,System Services & Daemons,Other
+E42,disable: < expand icons* alerts system_info* back home recent clock navigationbar search quick_settings >,System Services & Daemons,Other
+E43,disable: < expand ICONS* alerts SYSTEM_INFO* back home recent clock navigationbar search quick_settings >,System Services & Daemons,Other
+E44,enqueueNotificationInternal: n.getKey = <*>,System Services & Daemons,Other
+E45,enqueueNotificationInternal: pkg=<*> id=<*> notification=Notification(pri=<*> contentView=null vibrate=[<*>] sound=null tick defaults=<*> flags=<*> color=<*> category=msg vis=PRIVATE),System Services & Daemons,Other
+E46,enqueueNotificationInternal: pkg=<*> id=<*> notification=Notification(pri=<*> contentView=null vibrate=[<*>] sound=null tick defaults=<*> flags=<*> color=<*> vis=PRIVATE),System Services & Daemons,Other
+E47,"flingToHeight: vel=<*>.<*>, expand=false, target=<*>.<*>, collapseSpeedUpFactor=<*>.<*>, expandBecauseOfFalsing=false",System Services & Daemons,Other
+E48,"flingToHeight: vel=<*>.<*>, expand=true, target=<*>.<*>, collapseSpeedUpFactor=<*>.<*>, expandBecauseOfFalsing=false",System Services & Daemons,Other
+E49,getAllCellInfo is blocked by permission manager . callingPackage = <*>,Authentication & Security,Authentication & Security Failures
+E50,getCellLocation is blocked by permission manager uid:<*> pid:<*>,Authentication & Security,Authentication & Security Failures
+E51,getDevicesForStream  streamType: <*>,Hardware & Device Drivers,Other
+E52,getLastAudibleStreamVolume  treamType: <*>,Hardware & Device Drivers,Other
+E53,getMode...,System Services & Daemons,Other
+E54,getNeighboringCellInfo calling app is <*>,Network & Connectivity,Other
+E55,"getRecentTasks: num=<*>,flags=<*>,totalTasks=<*>",System Services & Daemons,Other
+E56,getRecentTasks: topActivity=ComponentInfo{<*><*>.<*>},System Services & Daemons,Other
+E57,getRingerMode...,System Services & Daemons,Other
+E58,getRingtonePlayer...,System Services & Daemons,Other
+E59,getRunningAppProcesses: caller <*> does not hold REAL_GET_TASKS; limiting output,Authentication & Security,Authentication & Security Failures
+E60,getStreamVolume  treamType: <*>,Hardware & Device Drivers,Other
+E61,getTasks: caller <*> does not hold REAL_GET_TASKS; limiting output,Authentication & Security,Authentication & Security Failures
+E62,handleBatteryUpdate,Power Management,Other
+E63,handleTimeUpdate,Kernel Boot & General System,Other
+E64,HBM brightnessIn =<*>,Power Management,Other
+E65,HBM brightnessOut =<*>,Power Management,Other
+E66,instantCollapse,System Services & Daemons,Other
+E67,"interceptKeyBeforeQueueing: key <*> , result : <*>",System Services & Daemons,Other
+E68,interceptKeyTq keycode=<*> interactive=true keyguardActive=false policyFlags=<*> down false canceled false,System Services & Daemons,Other
+E69,interceptKeyTq keycode=<*> interactive=true keyguardActive=false policyFlags=<*> down true canceled false,System Services & Daemons,Other
+E70,isBluetoothA2dpOn...,Network & Connectivity,Other
+E71,isBluetoothScoOn...,Network & Connectivity,Other
+E72,isMusicActive...,System Services & Daemons,Other
+E73,isSimPinSecure mSimDatas is null or empty,Authentication & Security,Other
+E74,isWiredHeadsetOn...,Hardware & Device Drivers,Other
+E75,Killing <*>:<*><*> (adj <*>): empty for <*>,System Services & Daemons,Other
+E76,logNotificationVisibilityChanges runInThread over,System Services & Daemons,Other
+E77,logNotificationVisibilityChanges runInThread start,System Services & Daemons,Other
+E78,makeExpandedInvisible: mExpandedVisible=false,System Services & Daemons,Other
+E79,makeExpandedInvisible: mExpandedVisible=true,System Services & Daemons,Other
+E80,Marking notification as seen <*>|<*>|<*>|null|<*>,System Services & Daemons,Other
+E81,mHeadsUpExistenceChangedRunnable,System Services & Daemons,Other
+E82,mVisiblity.getValue is false,System Services & Daemons,Other
+E83,"new Process app=ProcessRecord{<*> <*>:<*>:qzone<*>}, name: <*>:qzone, euid: <*>",System Services & Daemons,Other
+E84,"notifyUiVisibilityChanged:vis=<*>, SystemUiVisibility=<*>",System Services & Daemons,Other
+E85,onExpandingFinished,System Services & Daemons,Other
+E86,onExpandingStarted,System Services & Daemons,Other
+E87,"onInterceptTouchEvent MotionEvent { action=ACTION_DOWN, actionButton=<*>, id[<*>]=<*>, x[<*>]=<*>.<*>, y[<*>]=<*>.<*>, toolType[<*>]=TOOL_TYPE_FINGER, buttonState=<*>, metaState=<*>, flags=<*>, edgeFlags=<*>, pointerCount=<*>, historySize=<*>, eventTime=<*>, downTime=<*>, deviceId=<*>, source=<*> }, mBlockTouches=false",System Services & Daemons,Other
+E88,"onInterceptTouchEvent MotionEvent { action=ACTION_UP, actionButton=<*>, id[<*>]=<*>, x[<*>]=<*>.<*>, y[<*>]=<*>.<*>, toolType[<*>]=TOOL_TYPE_FINGER, buttonState=<*>, metaState=<*>, flags=<*>, edgeFlags=<*>, pointerCount=<*>, historySize=<*>, eventTime=<*>, downTime=<*>, deviceId=<*>, source=<*> }, mBlockTouches=false",System Services & Daemons,Other
+E89,onNotificationClick called,System Services & Daemons,Other
+E90,onNotificationExpansionChanged called,System Services & Daemons,Other
+E91,onNotificationVisibilityChanged called,System Services & Daemons,Other
+E92,"onReceive, action:<*>",System Services & Daemons,Other
+E93,"onTouchEvent::<*>, x=<*>.<*>, y=<*>.<*>",System Services & Daemons,Other
+E94,onTrackingStarted,System Services & Daemons,Other
+E95,onTrackingStopped: true,System Services & Daemons,Other
+E96,"orientation change is complete, call stopFreezingDisplayLocked",System Services & Daemons,Other
+E97,"overlapAmount:<*>.<*>, previousNotificationEnd:<*>.<*>, newYTranslation:<*>.<*>, location:<*>, i:<*>, getTopPadding:<*>.<*>, getLocationOnScreen():<*>",System Services & Daemons,Other
+E98,Pid:<*> MediaPlayer destructor,System Services & Daemons,Other
+E99,playSoundEffect   effectType: <*>,Hardware & Device Drivers,Other
+E100,"printFreezingDisplayLogsopening app wtoken = AppWindowToken{<*> token=Token{<*> ActivityRecord{<*> u0 <*>/.<*> t761}}}, allDrawn= false, startingDisplayed =  false, startingMoved =  false, isRelaunching =  false",System Services & Daemons,Other
+E101,Process <*>:qzone (pid <*>) has died,System Services & Daemons,Other
+E102,querySoundEffectsEnabled...,Hardware & Device Drivers,Other
+E103,"ready=true,policy=<*>,wakefulness=<*>,wksummary=<*>,uasummary=<*>,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=false,manual=<*>,auto=<*>,adj=<*>.0userId=<*>",Power Management,Other
+E104,received broadcast <*>,System Services & Daemons,Other
+E105,Received TIME_TICK alarm; rescheduling,System Services & Daemons,Other
+E106,RefreshBatteryInfo isBatteryLow: <*>,Power Management,Other
+E107,registerCallback not in UI.,System Services & Daemons,Other
+E108,"release:lock=<*>, flg=<*>, tag=""<*>"", name=<*>, ws=<*>, uid=<*>, pid=<*>",Power Management,Other
+E109,"Releasing suspend blocker ""PowerManagerService.WakeLocks"".",Power Management,Other
+E110,remove(PendingIntent{<*>: PendingIntentRecord{<*> <*> broadcastIntent}}) changed bounds; rebatching,System Services & Daemons,Other
+E111,removeNotification:<*>|<*>|<*>|null|<*>,System Services & Daemons,Other
+E112,removeNotificationChildren,System Services & Daemons,Other
+E113,resumeSuspendedAutohide,System Services & Daemons,Other
+E114,"rotationForOrientationLw(orient=<*>, last=<*>); user=<*> USER_ROTATION_LOCKED",System Services & Daemons,Other
+E115,schedulePeek,System Services & Daemons,Other
+E116,scheduleTimeTickEvent triggerAtTime = <*>,Kernel Boot & General System,Other
+E117,Scheduling restart of crashed service <*>.<*> in <*>,System Services & Daemons,Other
+E118,Screen frozen for <*> due to Window{<*> u0 <*>.<*>},System Services & Daemons,Other
+E119,"sending alarm Alarm{<*> type <*> when <*> PendingIntent{<*>: PendingIntentRecord{<*> <*> broadcastIntent}}},repeatInterval = <*>,listenerTag =null",System Services & Daemons,Other
+E120,"sending alarm Alarm{<*> type <*> when <*> PendingIntent{<*>: PendingIntentRecord{<*> android broadcastIntent}}},repeatInterval = <*>,listenerTag =time_tick",System Services & Daemons,Other
+E121,Sending non-protected broadcast <*> from system <*>:<*> pkg <*>,Authentication & Security,Other
+E122,"setDataSource(<*>, <*>, <*>) ",System Services & Daemons,Other
+E123,setLightsOn(true),Hardware & Device Drivers,Other
+E124,setSpeakerphoneOn  on: true,Hardware & Device Drivers,Other
+E125,setSpeakerphoneOn on:true,Hardware & Device Drivers,Other
+E126,"setSystemUiVisibility vis=<*> mask=<*> oldVal=<*> newVal=<*> diff=<*> fullscreenStackVis=<*> dockedStackVis=<*>, fullscreenStackBounds=Rect(<*>, <*> - <*>, <*>), dockedStackBounds=Rect(<*>, <*> - <*>, <*>) ",System Services & Daemons,Other
+E127,setWiredDeviceConnectionState  type: <*>  state: <*>,Hardware & Device Drivers,Other
+E128,shouldBlockLocation  ret:false,Authentication & Security,Other
+E129,shouldBlockLocation  ret:true,Authentication & Security,Other
+E130,shouldBlockLocation running ...,Authentication & Security,Other
+E131,Skipping AppWindowToken{<*> token=Token{<*> ActivityRecord{<*> u0 <*>}}} -- going to hide,System Services & Daemons,Other
+E132,"Skipping, withExcluded: false, tr.intent:Intent { act=<*> dat=<*> flg=<*> cmp=<*> (has extras) }",System Services & Daemons,Other
+E133,"Skipping, withExcluded: false, tr.intent:Intent { act=<*> dat=<*> typ=<*> flg=<*> cmp=<*> (has extras) }",System Services & Daemons,Other
+E134,"Skipping, withExcluded: false, tr.intent:Intent { act=<*> flg=<*> cmp=<*> (has extras) }",System Services & Daemons,Other
+E135,"Skipping, withExcluded: false, tr.intent:Intent { flg=<*> cmp=<*> (has extras) }",System Services & Daemons,Other
+E136,"Skipping, withExcluded: false, tr.intent:Intent { flg=<*> cmp=<*> bnds=<*> }",System Services & Daemons,Other
+E137,"Start dump, calling from : pid=<*>, uid=<*>",System Services & Daemons,Other
+E138,Start proc <*>:<*>:qzone<*> for service <*>.<*>,System Services & Daemons,Other
+E139,START u0 {act=<*> cat=[<*>] flg=<*> cmp=<*> bnds=<*>} from uid <*> on display <*>,System Services & Daemons,Other
+E140,START u0 {act=<*> flg=<*> cmp=<*> (has extras)} from uid <*> on display <*>,System Services & Daemons,Other
+E141,START u0 {flg=<*> cmp=<*> (has extras)} from uid <*> on display <*>,System Services & Daemons,Other
+E142,startActivity called from non-Activity context; forcing Intent.FLAG_ACTIVITY_NEW_TASK for: Intent { flg=<*> cmp=<*> (has extras) },System Services & Daemons,Other
+E143,startAnimation begin,System Services & Daemons,Other
+E144,startAnimation end,System Services & Daemons,Other
+E145,"state.clipTopAmount:<*>, i:<*>",System Services & Daemons,Other
+E146,stopWifiDisplayScanLocked mWifiDisplayScanRequestCount=<*>,Network & Connectivity,Other
+E147,stopWifiDisplayScanLocked record.mWifiDisplayScanRequested=false,Network & Connectivity,Other
+E148,suspendAutohide,System Services & Daemons,Other
+E149,"Taking screenshot from Surface with crop:[Rect(<*>, <*> - <*>, <*>)], width:[<*>], height:[<*>], minLayer:[<*>], maxLayer:[<*>], inRotation:[false], rot:[<*>]",System Services & Daemons,Other
+E150,The change in focus caused us to need to do a layout begin,System Services & Daemons,Other
+E151,The change in focus caused us to need to do a layout end,System Services & Daemons,Other
+E152,Unable to start service Intent { act=<*> cmp=<*>.<*> } U=<*>: not found,System Services & Daemons,Service Communication & Timeout Exceptions
+E153,unregisterAudioFocusListener...,System Services & Daemons,Other
+E154,updateChargingLocked: charging=false,Power Management,Other
+E155,"updateClipping isOverlap:false, getTopPadding=<*>.<*>, Translation=<*>.<*>",System Services & Daemons,Other
+E156,"updateClipping isOverlap:true, getTopPadding=<*>.<*>, Translation=<*>.<*>",System Services & Daemons,Other
+E157,updateDimmedActivatedHideSensitive overlap:false,System Services & Daemons,Other
+E158,updateDimmedActivatedHideSensitive overlap:true,System Services & Daemons,Other
+E159,"updateIsPoweredLocked: wasPowered=false, mIsPowered=false, oldPlugType=<*>, mPlugType=<*>, mBatteryLevel=<*>",Power Management,Other
+E160,"updateLightsLocked,mInCall =false,mScreenOn = true,ledNotification == null?false",Hardware & Device Drivers,Other
+E161,"updateLightsLocked,mInCall =false,mScreenOn = true,ledNotification == null?true",Hardware & Device Drivers,Other
+E162,"updateLightsLocked,turn off notificationLight",Hardware & Device Drivers,Other
+E163,"updateNotificationShade: total=<*>, active=<*>",System Services & Daemons,Other
+E164,"userActivityNoUpdateLocked: eventTime=<*>, event=<*>, flags=<*>, uid=<*>",Power Management,Other
+E165,visible is <*>,System Services & Daemons,Other
+E166,visible is <*> gt <*>,System Services & Daemons,Other
