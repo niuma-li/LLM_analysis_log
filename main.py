@@ -24,14 +24,14 @@ def main():
     print("\n[Step 1] 数据预处理...")
     preprocessor = LogPreprocessor(dataset_dir="dataset")
     # 假设你的日志文件名叫 Linux_2k.log
-    # sysType = "Linux"
-    # logs = preprocessor.load_logs(filename="Linux_2k.log")
+    sysType = "Linux"
+    logs = preprocessor.load_logs(filename="Linux_2k.log")
     # logs = preprocessor.load_logs(filename="Linux_2k.log_structured.csv")  # 结构化日志
 
     # 假设你的日志文件名叫 Android_2k.log
-    sysType = "Android"
+    # sysType = "Android"
     # logs = preprocessor.load_logs(filename="Android_2k.log")
-    logs = preprocessor.load_logs(filename="Android_2k.log_structured.csv")  # 结构化日志
+    # logs = preprocessor.load_logs(filename="Android_2k.log_structured.csv")  # 结构化日志
     total_logs = len(logs)
     print(f"原始日志总数: {total_logs}")
     # for log in logs[:5]:
@@ -84,3 +84,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
