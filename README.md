@@ -6,7 +6,7 @@ UCAS OS大作业
 ## 模型
 选用qwen2.5:3b轻量化模型，采用ollama本地部署。  
 ## 运行方式
-ollama serve 
+ollama serve   
 python main.py
 
 ## 简介
